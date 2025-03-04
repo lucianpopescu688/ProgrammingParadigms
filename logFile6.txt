@@ -1,0 +1,6315 @@
+PRGState with id: 5
+Execution Stack {
+(Ref(Int) v; (new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+Ref(Int) v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+Ref(Int) v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+new(v, 20)
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+new(v, 20)
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+}
+
+SymTable: 
+{
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+}
+
+SymTable: 
+{
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+Ref(Ref(Int)) a
+}
+
+SymTable: 
+{
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+Ref(Ref(Int)) a
+}
+
+SymTable: 
+{
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+new(a, v)
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+new(a, v)
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+}
+
+SymTable: 
+{
+a -> Address: 4, RefValue(Ref(Int))
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+4 -> Address: 3, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+}
+
+SymTable: 
+{
+a -> Address: 4, RefValue(Ref(Int))
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+4 -> Address: 3, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+print(Read heap (v))
+}
+
+SymTable: 
+{
+a -> Address: 4, RefValue(Ref(Int))
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+4 -> Address: 3, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+print(Read heap (v))
+}
+
+SymTable: 
+{
+a -> Address: 4, RefValue(Ref(Int))
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+4 -> Address: 3, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+}
+
+SymTable: 
+{
+a -> Address: 4, RefValue(Ref(Int))
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+20
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+4 -> Address: 3, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+}
+
+SymTable: 
+{
+a -> Address: 4, RefValue(Ref(Int))
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+20
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+4 -> Address: 3, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+}
+
+SymTable: 
+{
+a -> Address: 4, RefValue(Ref(Int))
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+20
+25
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+4 -> Address: 3, RefValue(Int)
+}
+
+================================================================
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Int) v; (new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+Ref(Int) v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+Ref(Int) v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+new(v, 20)
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+new(v, 20)
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+}
+
+SymTable: 
+{
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+}
+
+SymTable: 
+{
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+Ref(Ref(Int)) a
+}
+
+SymTable: 
+{
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+Ref(Ref(Int)) a
+}
+
+SymTable: 
+{
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+new(a, v)
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+new(a, v)
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+print(Read heap (v))
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+print(Read heap (v))
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+20
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+20
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+20
+25
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+================================================================
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Int) v; (new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+Ref(Int) v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+Ref(Int) v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+new(v, 20)
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+new(v, 20)
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+}
+
+SymTable: 
+{
+v -> Address: 2, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+2 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+}
+
+SymTable: 
+{
+v -> Address: 2, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+2 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+Ref(Ref(Int)) a
+}
+
+SymTable: 
+{
+v -> Address: 2, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+2 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+Ref(Ref(Int)) a
+}
+
+SymTable: 
+{
+v -> Address: 2, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+2 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 2, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+2 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 2, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+2 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+new(a, v)
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 2, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+2 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+new(a, v)
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 2, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+2 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+}
+
+SymTable: 
+{
+a -> Address: 3, RefValue(Ref(Int))
+v -> Address: 2, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+2 -> 20
+3 -> Address: 2, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+}
+
+SymTable: 
+{
+a -> Address: 3, RefValue(Ref(Int))
+v -> Address: 2, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+2 -> 20
+3 -> Address: 2, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+print(Read heap (v))
+}
+
+SymTable: 
+{
+a -> Address: 3, RefValue(Ref(Int))
+v -> Address: 2, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+2 -> 20
+3 -> Address: 2, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+print(Read heap (v))
+}
+
+SymTable: 
+{
+a -> Address: 3, RefValue(Ref(Int))
+v -> Address: 2, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+2 -> 20
+3 -> Address: 2, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+}
+
+SymTable: 
+{
+a -> Address: 3, RefValue(Ref(Int))
+v -> Address: 2, RefValue(Int)
+}
+Output List {
+20
+}
+
+FileTable: 
+
+Heap: 
+{
+2 -> 20
+3 -> Address: 2, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+}
+
+SymTable: 
+{
+a -> Address: 3, RefValue(Ref(Int))
+v -> Address: 2, RefValue(Int)
+}
+Output List {
+20
+}
+
+FileTable: 
+
+Heap: 
+{
+2 -> 20
+3 -> Address: 2, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+}
+
+SymTable: 
+{
+a -> Address: 3, RefValue(Ref(Int))
+v -> Address: 2, RefValue(Int)
+}
+Output List {
+20
+25
+}
+
+FileTable: 
+
+Heap: 
+{
+2 -> 20
+3 -> Address: 2, RefValue(Int)
+}
+
+================================================================
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Int) v; (new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+Ref(Int) v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+Ref(Int) v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+new(v, 20)
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+new(v, 20)
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+}
+
+SymTable: 
+{
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+}
+
+SymTable: 
+{
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+Ref(Ref(Int)) a
+}
+
+SymTable: 
+{
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+Ref(Ref(Int)) a
+}
+
+SymTable: 
+{
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+new(a, v)
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+new(a, v)
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+print(Read heap (v))
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+print(Read heap (v))
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+20
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+20
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+20
+25
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+================================================================
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Int) v; (new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+Ref(Int) v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+Ref(Int) v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+new(v, 20)
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+new(v, 20)
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+}
+
+SymTable: 
+{
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+}
+
+SymTable: 
+{
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+Ref(Ref(Int)) a
+}
+
+SymTable: 
+{
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+Ref(Ref(Int)) a
+}
+
+SymTable: 
+{
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+new(a, v)
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+new(a, v)
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+print(Read heap (v))
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+print(Read heap (v))
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+20
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+20
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+20
+25
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+================================================================
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Int) v; (new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+Ref(Int) v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+Ref(Int) v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+new(v, 20)
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+new(v, 20)
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+}
+
+SymTable: 
+{
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+}
+
+SymTable: 
+{
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+Ref(Ref(Int)) a
+}
+
+SymTable: 
+{
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+Ref(Ref(Int)) a
+}
+
+SymTable: 
+{
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+new(a, v)
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+new(a, v)
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+print(Read heap (v))
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+print(Read heap (v))
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+20
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+20
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+20
+25
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+================================================================
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Int) v; (new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+Ref(Int) v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+Ref(Int) v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+new(v, 20)
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+new(v, 20)
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+}
+
+SymTable: 
+{
+v -> Address: 2, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+2 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+}
+
+SymTable: 
+{
+v -> Address: 2, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+2 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+Ref(Ref(Int)) a
+}
+
+SymTable: 
+{
+v -> Address: 2, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+2 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+Ref(Ref(Int)) a
+}
+
+SymTable: 
+{
+v -> Address: 2, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+2 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 2, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+2 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 2, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+2 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+new(a, v)
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 2, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+2 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+new(a, v)
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 2, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+2 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+}
+
+SymTable: 
+{
+a -> Address: 3, RefValue(Ref(Int))
+v -> Address: 2, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+2 -> 20
+3 -> Address: 2, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+}
+
+SymTable: 
+{
+a -> Address: 3, RefValue(Ref(Int))
+v -> Address: 2, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+2 -> 20
+3 -> Address: 2, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+print(Read heap (v))
+}
+
+SymTable: 
+{
+a -> Address: 3, RefValue(Ref(Int))
+v -> Address: 2, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+2 -> 20
+3 -> Address: 2, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+print(Read heap (v))
+}
+
+SymTable: 
+{
+a -> Address: 3, RefValue(Ref(Int))
+v -> Address: 2, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+2 -> 20
+3 -> Address: 2, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+}
+
+SymTable: 
+{
+a -> Address: 3, RefValue(Ref(Int))
+v -> Address: 2, RefValue(Int)
+}
+Output List {
+20
+}
+
+FileTable: 
+
+Heap: 
+{
+2 -> 20
+3 -> Address: 2, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+}
+
+SymTable: 
+{
+a -> Address: 3, RefValue(Ref(Int))
+v -> Address: 2, RefValue(Int)
+}
+Output List {
+20
+}
+
+FileTable: 
+
+Heap: 
+{
+2 -> 20
+3 -> Address: 2, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+}
+
+SymTable: 
+{
+a -> Address: 3, RefValue(Ref(Int))
+v -> Address: 2, RefValue(Int)
+}
+Output List {
+20
+25
+}
+
+FileTable: 
+
+Heap: 
+{
+2 -> 20
+3 -> Address: 2, RefValue(Int)
+}
+
+================================================================
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Int) v; (new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+Ref(Int) v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+Ref(Int) v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+new(v, 20)
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+new(v, 20)
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+}
+
+SymTable: 
+{
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+}
+
+SymTable: 
+{
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+Ref(Ref(Int)) a
+}
+
+SymTable: 
+{
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+Ref(Ref(Int)) a
+}
+
+SymTable: 
+{
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+new(a, v)
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+new(a, v)
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+print(Read heap (v))
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Int) v; (new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+Ref(Int) v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+Ref(Int) v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+new(v, 20)
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+new(v, 20)
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+}
+
+SymTable: 
+{
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+}
+
+SymTable: 
+{
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+Ref(Ref(Int)) a
+}
+
+SymTable: 
+{
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+Ref(Ref(Int)) a
+}
+
+SymTable: 
+{
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+new(a, v)
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+new(a, v)
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+print(Read heap (v))
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+print(Read heap (v))
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+20
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+20
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+20
+25
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+================================================================
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Int) v; (new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+Ref(Int) v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+Ref(Int) v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+new(v, 20)
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+new(v, 20)
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+}
+
+SymTable: 
+{
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+}
+
+SymTable: 
+{
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+Ref(Ref(Int)) a
+}
+
+SymTable: 
+{
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+Ref(Ref(Int)) a
+}
+
+SymTable: 
+{
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+new(a, v)
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+new(a, v)
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+print(Read heap (v))
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+print(Read heap (v))
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+20
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+20
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+20
+25
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+
+================================================================
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Int) v; (new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+Ref(Int) v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+Ref(Int) v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+new(v, 20)
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+new(v, 20)
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+}
+
+SymTable: 
+{
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+}
+
+SymTable: 
+{
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+Ref(Ref(Int)) a
+}
+
+SymTable: 
+{
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+Ref(Ref(Int)) a
+}
+
+SymTable: 
+{
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+new(a, v)
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+new(a, v)
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+print(Read heap (v))
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+print(Read heap (v))
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+20
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+20
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+}
+
+SymTable: 
+{
+a -> Address: 2, RefValue(Ref(Int))
+v -> Address: 1, RefValue(Int)
+}
+Output List {
+20
+25
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+2 -> Address: 1, RefValue(Int)
+}
+LockTable: 
+
+
+================================================================
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Int) v; (new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+Ref(Int) v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+Ref(Int) v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+new(v, 20)
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+new(v, 20)
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+}
+
+SymTable: 
+{
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+}
+
+SymTable: 
+{
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+Ref(Ref(Int)) a
+}
+
+SymTable: 
+{
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+Ref(Ref(Int)) a
+}
+
+SymTable: 
+{
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+new(a, v)
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+new(a, v)
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+}
+
+SymTable: 
+{
+a -> Address: 4, RefValue(Ref(Int))
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+4 -> Address: 3, RefValue(Int)
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+}
+
+SymTable: 
+{
+a -> Address: 4, RefValue(Ref(Int))
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+4 -> Address: 3, RefValue(Int)
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+print(Read heap (v))
+}
+
+SymTable: 
+{
+a -> Address: 4, RefValue(Ref(Int))
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+4 -> Address: 3, RefValue(Int)
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+print(Read heap (v))
+}
+
+SymTable: 
+{
+a -> Address: 4, RefValue(Ref(Int))
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+4 -> Address: 3, RefValue(Int)
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+}
+
+SymTable: 
+{
+a -> Address: 4, RefValue(Ref(Int))
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+20
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+4 -> Address: 3, RefValue(Int)
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+}
+
+SymTable: 
+{
+a -> Address: 4, RefValue(Ref(Int))
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+20
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+4 -> Address: 3, RefValue(Int)
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+}
+
+SymTable: 
+{
+a -> Address: 4, RefValue(Ref(Int))
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+20
+25
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+4 -> Address: 3, RefValue(Int)
+}
+LockTable: 
+
+
+================================================================
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Int) v; (new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+Ref(Int) v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+Ref(Int) v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(v, 20); (Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))))
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+new(v, 20)
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+new(v, 20)
+}
+
+SymTable: 
+{
+v -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+}
+
+SymTable: 
+{
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(Ref(Ref(Int)) a; (new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))))
+}
+
+SymTable: 
+{
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+Ref(Ref(Int)) a
+}
+
+SymTable: 
+{
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+Ref(Ref(Int)) a
+}
+
+SymTable: 
+{
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(new(a, v); (print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5)))
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+new(a, v)
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+new(a, v)
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Ref(Int))
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+}
+
+SymTable: 
+{
+a -> Address: 4, RefValue(Ref(Int))
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+4 -> Address: 3, RefValue(Int)
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+(print(Read heap (v)); print(Read heap (Read heap (a)) PLUS 5))
+}
+
+SymTable: 
+{
+a -> Address: 4, RefValue(Ref(Int))
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+4 -> Address: 3, RefValue(Int)
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+print(Read heap (v))
+}
+
+SymTable: 
+{
+a -> Address: 4, RefValue(Ref(Int))
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+4 -> Address: 3, RefValue(Int)
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+print(Read heap (v))
+}
+
+SymTable: 
+{
+a -> Address: 4, RefValue(Ref(Int))
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+4 -> Address: 3, RefValue(Int)
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+}
+
+SymTable: 
+{
+a -> Address: 4, RefValue(Ref(Int))
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+20
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+4 -> Address: 3, RefValue(Int)
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+print(Read heap (Read heap (a)) PLUS 5)
+}
+
+SymTable: 
+{
+a -> Address: 4, RefValue(Ref(Int))
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+20
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+4 -> Address: 3, RefValue(Int)
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 5
+Execution Stack {
+}
+
+SymTable: 
+{
+a -> Address: 4, RefValue(Ref(Int))
+v -> Address: 3, RefValue(Int)
+}
+Output List {
+20
+25
+}
+
+FileTable: 
+
+Heap: 
+{
+3 -> 20
+4 -> Address: 3, RefValue(Int)
+}
+LockTable: 
+
+
+================================================================
+

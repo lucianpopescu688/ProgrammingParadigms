@@ -1,0 +1,10298 @@
+PRGState with id: 3
+Execution Stack {
+(String varf; (varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+String varf
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+String varf
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+varf = test.in
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+varf = test.in
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+opening file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+opening file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+Int varc
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+Int varc
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+0
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+0
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(String varf; (varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+String varf
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+String varf
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+varf = test.in
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+varf = test.in
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+opening file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+opening file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+Int varc
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(String varf; (varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+String varf
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+String varf
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+varf = test.in
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+varf = test.in
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+opening file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+opening file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+Int varc
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+Int varc
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+50
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+50
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+50
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+================================================================
+
+PRGState with id: 3
+Execution Stack {
+(String varf; (varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+String varf
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+String varf
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+varf = test.in
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+varf = test.in
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+opening file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+opening file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+Int varc
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+Int varc
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+50
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+50
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+50
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+================================================================
+
+PRGState with id: 3
+Execution Stack {
+(String varf; (varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+String varf
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+String varf
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+varf = test.in
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+varf = test.in
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+opening file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+opening file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+Int varc
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+Int varc
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+50
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+50
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+50
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+================================================================
+
+PRGState with id: 3
+Execution Stack {
+(String varf; (varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+String varf
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+String varf
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+varf = test.in
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+varf = test.in
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+opening file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+opening file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+Int varc
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+Int varc
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+50
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+50
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+50
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+================================================================
+
+PRGState with id: 3
+Execution Stack {
+(String varf; (varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+String varf
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+String varf
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+varf = test.in
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+varf = test.in
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+opening file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+opening file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+Int varc
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+Int varc
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+50
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+50
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+50
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+================================================================
+
+PRGState with id: 3
+Execution Stack {
+(String varf; (varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+String varf
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+String varf
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+varf = test.in
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+varf = test.in
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+opening file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+opening file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+Int varc
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+Int varc
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(String varf; (varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+String varf
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+String varf
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+varf = test.in
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+varf = test.in
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+opening file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+opening file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+Int varc
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+Int varc
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(String varf; (varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+String varf
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+String varf
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+varf = test.in
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+varf = test.in
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+opening file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+opening file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+Int varc
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+Int varc
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+50
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+50
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+50
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+================================================================
+
+PRGState with id: 3
+Execution Stack {
+(String varf; (varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+String varf
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+String varf
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+varf = test.in
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+varf = test.in
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+opening file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+opening file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+Int varc
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+Int varc
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+50
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+50
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+50
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+================================================================
+
+PRGState with id: 3
+Execution Stack {
+(String varf; (varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+String varf
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+String varf
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+varf = test.in
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+varf = test.in
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+opening file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+opening file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+Int varc
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+Int varc
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(String varf; (varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+String varf
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+String varf
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+varf = test.in
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+varf = test.in
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+opening file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+opening file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+Int varc
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+Int varc
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+50
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+50
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+50
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+================================================================
+
+PRGState with id: 3
+Execution Stack {
+(String varf; (varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+String varf
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+String varf
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+varf = test.in
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+varf = test.in
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+opening file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(String varf; (varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+String varf
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+String varf
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+varf = test.in
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+varf = test.in
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+opening file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+opening file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+Int varc
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+Int varc
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+50
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+50
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+50
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+================================================================
+
+PRGState with id: 3
+Execution Stack {
+(String varf; (varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+String varf
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+String varf
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(varf = test.in; (opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))))
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+varf = test.in
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+varf = test.in
+}
+
+SymTable: 
+{
+varf -> 
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(opening file (varf); (Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+opening file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+opening file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(Int varc; (reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))))
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+Int varc
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+Int varc
+}
+
+SymTable: 
+{
+varf -> test.in
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf)))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 0
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); (reading from (varf) into variable (varc); (print(varc); closing file (varf))))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(reading from (varf) into variable (varc); (print(varc); closing file (varf)))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+reading from (varf) into variable (varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 15
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+(print(varc); closing file (varf))
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+print(varc)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+50
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+closing file (varf)
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+50
+}
+
+FileTable: 
+test.in
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 3
+Execution Stack {
+}
+
+SymTable: 
+{
+varf -> test.in
+varc -> 50
+}
+Output List {
+15
+50
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+================================================================
+

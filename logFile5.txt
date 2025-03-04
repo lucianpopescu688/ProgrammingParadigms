@@ -1,0 +1,9005 @@
+PRGState with id: 4
+Execution Stack {
+(Int v; (v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v)))
+Int v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v)))
+Int v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v)))
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v)))
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))
+v = 4
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))
+v = 4
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(Int v; (v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v)))
+Int v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v)))
+Int v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v)))
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v)))
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))
+v = 4
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))
+v = 4
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+4
+3
+2
+1
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+================================================================
+
+PRGState with id: 4
+Execution Stack {
+(Int v; (v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v)))
+Int v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v)))
+Int v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v)))
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v)))
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))
+v = 4
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))
+v = 4
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+4
+3
+2
+1
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+================================================================
+
+PRGState with id: 4
+Execution Stack {
+(Int v; (v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v)))
+Int v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v)))
+Int v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v)))
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v)))
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))
+v = 4
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))
+v = 4
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+4
+3
+2
+1
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+================================================================
+
+PRGState with id: 4
+Execution Stack {
+(Int v; (v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v)))
+Int v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v)))
+Int v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v)))
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v)))
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))
+v = 4
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))
+v = 4
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+4
+3
+2
+1
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+================================================================
+
+PRGState with id: 4
+Execution Stack {
+(Int v; (v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v)))
+Int v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v)))
+Int v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v)))
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v)))
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))
+v = 4
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))
+v = 4
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+4
+3
+2
+1
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+================================================================
+
+PRGState with id: 4
+Execution Stack {
+(Int v; (v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v)))
+Int v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v)))
+Int v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v)))
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v)))
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))
+v = 4
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))
+v = 4
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(Int v; (v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v)))
+Int v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v)))
+Int v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v)))
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v)))
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))
+v = 4
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))
+v = 4
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+4
+3
+2
+1
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+================================================================
+
+PRGState with id: 4
+Execution Stack {
+(Int v; (v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v)))
+Int v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v)))
+Int v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v)))
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(v = 4; (while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v)))
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))
+v = 4
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))
+v = 4
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+(while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}; print(v))
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 4
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 3
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 2
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 1
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+while (v GREATER_THAN 0) {(print(v); v = v MINUS 1)}
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+print(v)
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+4
+3
+2
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+----------------------------------------------------------------
+
+PRGState with id: 4
+Execution Stack {
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+4
+3
+2
+1
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+LockTable: 
+
+
+================================================================
+

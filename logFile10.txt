@@ -1,0 +1,11683 @@
+PRGState with id: 9
+Execution Stack {
+(Ref(Int) a; (new(a, 20); (for(v=0; v<3; v=v PLUS 1) Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); print(Read heap (a)))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(new(a, 20); (for(v=0; v<3; v=v PLUS 1) Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); print(Read heap (a))))
+Ref(Int) a
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(new(a, 20); (for(v=0; v<3; v=v PLUS 1) Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); print(Read heap (a))))
+Ref(Int) a
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(new(a, 20); (for(v=0; v<3; v=v PLUS 1) Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); print(Read heap (a))))
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(new(a, 20); (for(v=0; v<3; v=v PLUS 1) Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); print(Read heap (a))))
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(for(v=0; v<3; v=v PLUS 1) Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); print(Read heap (a)))
+new(a, 20)
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(for(v=0; v<3; v=v PLUS 1) Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); print(Read heap (a)))
+new(a, 20)
+}
+
+SymTable: 
+{
+a -> Address: 0, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(for(v=0; v<3; v=v PLUS 1) Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); print(Read heap (a)))
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(for(v=0; v<3; v=v PLUS 1) Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); print(Read heap (a)))
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+for(v=0; v<3; v=v PLUS 1) Fork ( (print(v); v = v MULTIPLY Read heap (a)) )
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+for(v=0; v<3; v=v PLUS 1) Fork ( (print(v); v = v MULTIPLY Read heap (a)) )
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+(Int v; (v = 0; while (v LESS_THAN 3) {(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)}))
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+(Int v; (v = 0; while (v LESS_THAN 3) {(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)}))
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+(v = 0; while (v LESS_THAN 3) {(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)})
+Int v
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+(v = 0; while (v LESS_THAN 3) {(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)})
+Int v
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+(v = 0; while (v LESS_THAN 3) {(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)})
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+(v = 0; while (v LESS_THAN 3) {(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)})
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+while (v LESS_THAN 3) {(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)}
+v = 0
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+while (v LESS_THAN 3) {(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)}
+v = 0
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+while (v LESS_THAN 3) {(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+while (v LESS_THAN 3) {(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+while (v LESS_THAN 3) {(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)}
+(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+while (v LESS_THAN 3) {(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)}
+(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+while (v LESS_THAN 3) {(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)}
+v = v PLUS 1
+Fork ( (print(v); v = v MULTIPLY Read heap (a)) )
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+while (v LESS_THAN 3) {(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)}
+v = v PLUS 1
+Fork ( (print(v); v = v MULTIPLY Read heap (a)) )
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+while (v LESS_THAN 3) {(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)}
+v = v PLUS 1
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 10
+Execution Stack {
+(print(v); v = v MULTIPLY Read heap (a))
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+while (v LESS_THAN 3) {(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)}
+v = v PLUS 1
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 10
+Execution Stack {
+(print(v); v = v MULTIPLY Read heap (a))
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+while (v LESS_THAN 3) {(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 1
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 10
+Execution Stack {
+v = v MULTIPLY Read heap (a)
+print(v)
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+while (v LESS_THAN 3) {(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 1
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 10
+Execution Stack {
+v = v MULTIPLY Read heap (a)
+print(v)
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+while (v LESS_THAN 3) {(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)}
+(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 1
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 10
+Execution Stack {
+v = v MULTIPLY Read heap (a)
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+while (v LESS_THAN 3) {(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)}
+(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 1
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 10
+Execution Stack {
+v = v MULTIPLY Read heap (a)
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+while (v LESS_THAN 3) {(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)}
+v = v PLUS 1
+Fork ( (print(v); v = v MULTIPLY Read heap (a)) )
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 1
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 10
+Execution Stack {
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+================================================================
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+while (v LESS_THAN 3) {(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)}
+v = v PLUS 1
+Fork ( (print(v); v = v MULTIPLY Read heap (a)) )
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 1
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+while (v LESS_THAN 3) {(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)}
+v = v PLUS 1
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 1
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+(print(v); v = v MULTIPLY Read heap (a))
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 1
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+while (v LESS_THAN 3) {(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)}
+v = v PLUS 1
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 1
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+(print(v); v = v MULTIPLY Read heap (a))
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 1
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+while (v LESS_THAN 3) {(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 2
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+v = v MULTIPLY Read heap (a)
+print(v)
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 1
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+while (v LESS_THAN 3) {(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 2
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+v = v MULTIPLY Read heap (a)
+print(v)
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 1
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+while (v LESS_THAN 3) {(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)}
+(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 2
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+v = v MULTIPLY Read heap (a)
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 1
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+while (v LESS_THAN 3) {(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)}
+(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 2
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+v = v MULTIPLY Read heap (a)
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 1
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+while (v LESS_THAN 3) {(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)}
+v = v PLUS 1
+Fork ( (print(v); v = v MULTIPLY Read heap (a)) )
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 2
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 20
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+================================================================
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+while (v LESS_THAN 3) {(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)}
+v = v PLUS 1
+Fork ( (print(v); v = v MULTIPLY Read heap (a)) )
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 2
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+while (v LESS_THAN 3) {(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)}
+v = v PLUS 1
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 2
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+(print(v); v = v MULTIPLY Read heap (a))
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 2
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+while (v LESS_THAN 3) {(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)}
+v = v PLUS 1
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 2
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+(print(v); v = v MULTIPLY Read heap (a))
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 2
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+while (v LESS_THAN 3) {(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 3
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+v = v MULTIPLY Read heap (a)
+print(v)
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 2
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+while (v LESS_THAN 3) {(Fork ( (print(v); v = v MULTIPLY Read heap (a)) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 3
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+v = v MULTIPLY Read heap (a)
+print(v)
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 2
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 3
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+v = v MULTIPLY Read heap (a)
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 2
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(Read heap (a))
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 3
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+v = v MULTIPLY Read heap (a)
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 2
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 3
+}
+Output List {
+0
+1
+2
+20
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+================================================================
+
+PRGState with id: 12
+Execution Stack {
+}
+
+SymTable: 
+{
+a -> Address: 1, RefValue(Int)
+v -> 40
+}
+Output List {
+0
+1
+2
+20
+}
+
+FileTable: 
+
+Heap: 
+{
+1 -> 20
+}
+
+================================================================
+
+PRGState with id: 9
+Execution Stack {
+(Int v; (Int x; (Int y; (v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (null; (y = 3; (null; print(v MULTIPLY 10))))))))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int x; (Int y; (v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))))))
+Int v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int x; (Int y; (v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))))))
+Int v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int x; (Int y; (v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))))))
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int x; (Int y; (v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))))))
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int y; (v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (null; (y = 3; (null; print(v MULTIPLY 10))))))))
+Int x
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int y; (v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (null; (y = 3; (null; print(v MULTIPLY 10))))))))
+Int x
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int y; (v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (null; (y = 3; (null; print(v MULTIPLY 10))))))))
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int y; (v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (null; (y = 3; (null; print(v MULTIPLY 10))))))))
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))))
+Int y
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))))
+Int y
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))))
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))))
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (null; (y = 3; (null; print(v MULTIPLY 10))))))
+v = 0
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (null; (y = 3; (null; print(v MULTIPLY 10))))))
+v = 0
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (null; (y = 3; (null; print(v MULTIPLY 10))))))
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (null; (y = 3; (null; print(v MULTIPLY 10))))))
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+((Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1); while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)})
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+((Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1); while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)})
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+Fork ( (print(v); v = v MINUS 1) )
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+Fork ( (print(v); v = v MINUS 1) )
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 10
+Execution Stack {
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 10
+Execution Stack {
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 10
+Execution Stack {
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 10
+Execution Stack {
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 10
+Execution Stack {
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 10
+Execution Stack {
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+Fork ( (print(v); v = v MINUS 1) )
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 10
+Execution Stack {
+}
+
+SymTable: 
+{
+v -> -1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+================================================================
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+Fork ( (print(v); v = v MINUS 1) )
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+Fork ( (print(v); v = v MINUS 1) )
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+================================================================
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+Fork ( (print(v); v = v MINUS 1) )
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+v -> 3
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+v -> 3
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(null; (y = 3; (null; print(v MULTIPLY 10))))
+x = 1
+}
+
+SymTable: 
+{
+v -> 3
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+================================================================
+
+PRGState with id: 9
+Execution Stack {
+(null; (y = 3; (null; print(v MULTIPLY 10))))
+x = 1
+}
+
+SymTable: 
+{
+v -> 3
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(null; (y = 3; (null; print(v MULTIPLY 10))))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(null; (y = 3; (null; print(v MULTIPLY 10))))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(y = 3; (null; print(v MULTIPLY 10)))
+null
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(y = 3; (null; print(v MULTIPLY 10)))
+null
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(y = 3; (null; print(v MULTIPLY 10)))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(null; print(v MULTIPLY 10))
+y = 3
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(null; print(v MULTIPLY 10))
+y = 3
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(null; print(v MULTIPLY 10))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 3
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(null; print(v MULTIPLY 10))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 3
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(v MULTIPLY 10)
+null
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 3
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(v MULTIPLY 10)
+null
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 3
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(v MULTIPLY 10)
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 3
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 3
+}
+Output List {
+0
+1
+2
+30
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+================================================================
+
+PRGState with id: 9
+Execution Stack {
+(Int v; (Int x; (Int y; (v = 0; (repeat {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)} while not (v EQUAL 3); (x = 1; (null; (y = 3; (null; print(v MULTIPLY 10))))))))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int x; (Int y; (v = 0; (repeat {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)} while not (v EQUAL 3); (x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))))))
+Int v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int x; (Int y; (v = 0; (repeat {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)} while not (v EQUAL 3); (x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))))))
+Int v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int x; (Int y; (v = 0; (repeat {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)} while not (v EQUAL 3); (x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))))))
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int x; (Int y; (v = 0; (repeat {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)} while not (v EQUAL 3); (x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))))))
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int y; (v = 0; (repeat {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)} while not (v EQUAL 3); (x = 1; (null; (y = 3; (null; print(v MULTIPLY 10))))))))
+Int x
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int y; (v = 0; (repeat {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)} while not (v EQUAL 3); (x = 1; (null; (y = 3; (null; print(v MULTIPLY 10))))))))
+Int x
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int y; (v = 0; (repeat {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)} while not (v EQUAL 3); (x = 1; (null; (y = 3; (null; print(v MULTIPLY 10))))))))
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int y; (v = 0; (repeat {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)} while not (v EQUAL 3); (x = 1; (null; (y = 3; (null; print(v MULTIPLY 10))))))))
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(v = 0; (repeat {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)} while not (v EQUAL 3); (x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))))
+Int y
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(v = 0; (repeat {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)} while not (v EQUAL 3); (x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))))
+Int y
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(v = 0; (repeat {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)} while not (v EQUAL 3); (x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))))
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(v = 0; (repeat {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)} while not (v EQUAL 3); (x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))))
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(repeat {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)} while not (v EQUAL 3); (x = 1; (null; (y = 3; (null; print(v MULTIPLY 10))))))
+v = 0
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(repeat {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)} while not (v EQUAL 3); (x = 1; (null; (y = 3; (null; print(v MULTIPLY 10))))))
+v = 0
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(repeat {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)} while not (v EQUAL 3); (x = 1; (null; (y = 3; (null; print(v MULTIPLY 10))))))
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(repeat {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)} while not (v EQUAL 3); (x = 1; (null; (y = 3; (null; print(v MULTIPLY 10))))))
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+repeat {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)} while not (v EQUAL 3)
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+repeat {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)} while not (v EQUAL 3)
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+((Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1); while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)})
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+((Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1); while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)})
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+Fork ( (print(v); v = v MINUS 1) )
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+Fork ( (print(v); v = v MINUS 1) )
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 10
+Execution Stack {
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 10
+Execution Stack {
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 10
+Execution Stack {
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 10
+Execution Stack {
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 10
+Execution Stack {
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 10
+Execution Stack {
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+Fork ( (print(v); v = v MINUS 1) )
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 10
+Execution Stack {
+}
+
+SymTable: 
+{
+v -> -1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+================================================================
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+Fork ( (print(v); v = v MINUS 1) )
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+Fork ( (print(v); v = v MINUS 1) )
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+================================================================
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+Fork ( (print(v); v = v MINUS 1) )
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+v -> 3
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+v -> 3
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (null; (y = 3; (null; print(v MULTIPLY 10)))))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(null; (y = 3; (null; print(v MULTIPLY 10))))
+x = 1
+}
+
+SymTable: 
+{
+v -> 3
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+================================================================
+
+PRGState with id: 9
+Execution Stack {
+(null; (y = 3; (null; print(v MULTIPLY 10))))
+x = 1
+}
+
+SymTable: 
+{
+v -> 3
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(null; (y = 3; (null; print(v MULTIPLY 10))))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(null; (y = 3; (null; print(v MULTIPLY 10))))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(y = 3; (null; print(v MULTIPLY 10)))
+null
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(y = 3; (null; print(v MULTIPLY 10)))
+null
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(y = 3; (null; print(v MULTIPLY 10)))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(null; print(v MULTIPLY 10))
+y = 3
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(null; print(v MULTIPLY 10))
+y = 3
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(null; print(v MULTIPLY 10))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 3
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(null; print(v MULTIPLY 10))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 3
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(v MULTIPLY 10)
+null
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 3
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(v MULTIPLY 10)
+null
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 3
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(v MULTIPLY 10)
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 3
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 3
+}
+Output List {
+0
+1
+2
+30
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+================================================================
+
+PRGState with id: 9
+Execution Stack {
+(Int v; (Int x; (Int y; (v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))))))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int x; (Int y; (v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))))))
+Int v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int x; (Int y; (v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))))))
+Int v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int x; (Int y; (v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))))))
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int x; (Int y; (v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))))))
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int y; (v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))))))
+Int x
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int y; (v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))))))
+Int x
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int y; (v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))))))
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int y; (v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))))))
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))))
+Int y
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))))
+Int y
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))))
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))))
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))))
+v = 0
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))))
+v = 0
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))))
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))))
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+((Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1); while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)})
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+((Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1); while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)})
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+Fork ( (print(v); v = v MINUS 1) )
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+Fork ( (print(v); v = v MINUS 1) )
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 10
+Execution Stack {
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 10
+Execution Stack {
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 10
+Execution Stack {
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 10
+Execution Stack {
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 10
+Execution Stack {
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 10
+Execution Stack {
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+Fork ( (print(v); v = v MINUS 1) )
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 10
+Execution Stack {
+}
+
+SymTable: 
+{
+v -> -1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+================================================================
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+Fork ( (print(v); v = v MINUS 1) )
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+Fork ( (print(v); v = v MINUS 1) )
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+================================================================
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+Fork ( (print(v); v = v MINUS 1) )
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+v -> 3
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+v -> 3
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))
+x = 1
+}
+
+SymTable: 
+{
+v -> 3
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+================================================================
+
+PRGState with id: 9
+Execution Stack {
+(NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))
+x = 1
+}
+
+SymTable: 
+{
+v -> 3
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(y = 3; (NopStatement; print(v MULTIPLY 10)))
+NopStatement
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(y = 3; (NopStatement; print(v MULTIPLY 10)))
+NopStatement
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(y = 3; (NopStatement; print(v MULTIPLY 10)))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(y = 3; (NopStatement; print(v MULTIPLY 10)))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(NopStatement; print(v MULTIPLY 10))
+y = 3
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(NopStatement; print(v MULTIPLY 10))
+y = 3
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(NopStatement; print(v MULTIPLY 10))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 3
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(NopStatement; print(v MULTIPLY 10))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 3
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(v MULTIPLY 10)
+NopStatement
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 3
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(v MULTIPLY 10)
+NopStatement
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 3
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(v MULTIPLY 10)
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 3
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(v MULTIPLY 10)
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 3
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 3
+}
+Output List {
+0
+1
+2
+30
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+================================================================
+
+PRGState with id: 9
+Execution Stack {
+(Int v; (Int x; (Int y; (v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))))))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int x; (Int y; (v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))))))
+Int v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int x; (Int y; (v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))))))
+Int v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int x; (Int y; (v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))))))
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int x; (Int y; (v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))))))
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int y; (v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))))))
+Int x
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int y; (v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))))))
+Int x
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int y; (v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))))))
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int y; (v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))))))
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))))
+Int y
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))))
+Int y
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))))
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))))
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))))
+v = 0
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))))
+v = 0
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))))
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))))
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+((Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1); while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)})
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+((Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1); while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)})
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+Fork ( (print(v); v = v MINUS 1) )
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+Fork ( (print(v); v = v MINUS 1) )
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+Fork ( (print(v); v = v MINUS 1) )
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+}
+
+SymTable: 
+{
+v -> -1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+================================================================
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+Fork ( (print(v); v = v MINUS 1) )
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+Fork ( (print(v); v = v MINUS 1) )
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+================================================================
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+Fork ( (print(v); v = v MINUS 1) )
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 13
+Execution Stack {
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 13
+Execution Stack {
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+v -> 3
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 13
+Execution Stack {
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+v -> 3
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 13
+Execution Stack {
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 13
+Execution Stack {
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 13
+Execution Stack {
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))
+x = 1
+}
+
+SymTable: 
+{
+v -> 3
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 13
+Execution Stack {
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+================================================================
+
+PRGState with id: 9
+Execution Stack {
+(NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))
+x = 1
+}
+
+SymTable: 
+{
+v -> 3
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(y = 3; (NopStatement; print(v MULTIPLY 10)))
+NopStatement
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(y = 3; (NopStatement; print(v MULTIPLY 10)))
+NopStatement
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(y = 3; (NopStatement; print(v MULTIPLY 10)))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(y = 3; (NopStatement; print(v MULTIPLY 10)))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(NopStatement; print(v MULTIPLY 10))
+y = 3
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(NopStatement; print(v MULTIPLY 10))
+y = 3
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(NopStatement; print(v MULTIPLY 10))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 3
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(NopStatement; print(v MULTIPLY 10))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 3
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(v MULTIPLY 10)
+NopStatement
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 3
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(v MULTIPLY 10)
+NopStatement
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 3
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(v MULTIPLY 10)
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 3
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(v MULTIPLY 10)
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 3
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 3
+}
+Output List {
+0
+1
+2
+30
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+================================================================
+
+PRGState with id: 9
+Execution Stack {
+(Int v; (Int x; (Int y; (v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))))))))
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int x; (Int y; (v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))))))
+Int v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int x; (Int y; (v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))))))
+Int v
+}
+
+SymTable: 
+{
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int x; (Int y; (v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))))))
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int x; (Int y; (v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))))))
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int y; (v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))))))
+Int x
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int y; (v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))))))
+Int x
+}
+
+SymTable: 
+{
+v -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int y; (v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))))))
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(Int y; (v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))))))
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))))
+Int y
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))))
+Int y
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))))
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(v = 0; (repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))))
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))))
+v = 0
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))))
+v = 0
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))))
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3; (x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))))
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+repeat (Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1) until v EQUAL 3
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+((Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1); while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)})
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+((Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1); while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)})
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+Fork ( (print(v); v = v MINUS 1) )
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+Fork ( (print(v); v = v MINUS 1) )
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+Fork ( (print(v); v = v MINUS 1) )
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 11
+Execution Stack {
+}
+
+SymTable: 
+{
+v -> -1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+================================================================
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+Fork ( (print(v); v = v MINUS 1) )
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+Fork ( (print(v); v = v MINUS 1) )
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 12
+Execution Stack {
+}
+
+SymTable: 
+{
+v -> 0
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+================================================================
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+Fork ( (print(v); v = v MINUS 1) )
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 13
+Execution Stack {
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+v = v PLUS 1
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 13
+Execution Stack {
+(print(v); v = v MINUS 1)
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+v -> 3
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 13
+Execution Stack {
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+while (!(v EQUAL 3)) {(Fork ( (print(v); v = v MINUS 1) ); v = v PLUS 1)}
+}
+
+SymTable: 
+{
+v -> 3
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 13
+Execution Stack {
+v = v MINUS 1
+print(v)
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 13
+Execution Stack {
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(x = 1; (NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10)))))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 13
+Execution Stack {
+v = v MINUS 1
+}
+
+SymTable: 
+{
+v -> 2
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))
+x = 1
+}
+
+SymTable: 
+{
+v -> 3
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 13
+Execution Stack {
+}
+
+SymTable: 
+{
+v -> 1
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+================================================================
+
+PRGState with id: 9
+Execution Stack {
+(NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))
+x = 1
+}
+
+SymTable: 
+{
+v -> 3
+x -> 0
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(NopStatement; (y = 3; (NopStatement; print(v MULTIPLY 10))))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(y = 3; (NopStatement; print(v MULTIPLY 10)))
+NopStatement
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(y = 3; (NopStatement; print(v MULTIPLY 10)))
+NopStatement
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(y = 3; (NopStatement; print(v MULTIPLY 10)))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(y = 3; (NopStatement; print(v MULTIPLY 10)))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(NopStatement; print(v MULTIPLY 10))
+y = 3
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(NopStatement; print(v MULTIPLY 10))
+y = 3
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 0
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(NopStatement; print(v MULTIPLY 10))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 3
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+(NopStatement; print(v MULTIPLY 10))
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 3
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(v MULTIPLY 10)
+NopStatement
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 3
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(v MULTIPLY 10)
+NopStatement
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 3
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(v MULTIPLY 10)
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 3
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+print(v MULTIPLY 10)
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 3
+}
+Output List {
+0
+1
+2
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+----------------------------------------------------------------
+
+PRGState with id: 9
+Execution Stack {
+}
+
+SymTable: 
+{
+v -> 3
+x -> 1
+y -> 3
+}
+Output List {
+0
+1
+2
+30
+}
+
+FileTable: 
+
+Heap: 
+{
+}
+
+================================================================
+
